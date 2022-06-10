@@ -1,2 +1,4 @@
 *.png
 node_modules
+tests
+.yarn
