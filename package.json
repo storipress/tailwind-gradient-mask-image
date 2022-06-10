@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juhanakristian/tailwind-gradient-mask-image.git"
+    "url": "git+https://github.com/storipress/tailwind-gradient-mask-image.git"
   },
   "keywords": [
     "tailwind",
@@ -19,9 +19,9 @@
   "author": "Juhana Jauhiainen <juhana.jauhiainen@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juhanakristian/tailwind-gradient-mask-image/issues"
+    "url": "https://github.com/storipress/tailwind-gradient-mask-image/issues"
   },
-  "homepage": "https://github.com/juhanakristian/tailwind-gradient-mask-image#readme",
+  "homepage": "https://github.com/storipress/tailwind-gradient-mask-image#readme",
   "devDependencies": {
     "ava": "^4.3.0",
     "postcss": "^8.4.14",
