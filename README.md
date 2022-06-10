@@ -1,5 +1,7 @@
 # Gradient Mask plugin for Tailwind CSS
 
+**This is a fork of [tailwind-gradient-mask-image](https://github.com/storipress/tailwind-gradient-mask-image), customized for Storipress**
+
 Tailwind CSS plugin for adding `mask-image` with a `linear-gradient` on a HTML element.
 
 <img src="screenshot.png" width="400">
@@ -12,12 +14,12 @@ Try it out in [Tailwind CSS Playground](https://play.tailwindcss.com/ZAQrbYa3wH)
 
 With npm
 ```bash
-npm install tailwind-gradient-mask-image
+npm install @storipress/tailwind-gradient-mask-image
 ```
 
 With yarn
 ```bash
-yarn add tailwind-gradient-mask-image
+yarn add @storipress/tailwind-gradient-mask-image
 ```
 
 ## Configuration
@@ -26,7 +28,7 @@ Add the plugin to your `tailwind.config.js`
 
 ```js
 {
-    plugins: [require("tailwind-gradient-mask-image")]
+    plugins: [require("@storipress/tailwind-gradient-mask-image")]
 }
 ```
 

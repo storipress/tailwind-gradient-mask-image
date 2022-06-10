@@ -1,10 +1,10 @@
 {
-  "name": "tailwind-gradient-mask-image",
+  "name": "@storipress/tailwind-gradient-mask-image",
   "version": "1.0.0",
   "description": "A plugin for Tailwind CSS for masking elements using mask-image and linear-gradient.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "ava"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,12 @@
   },
   "homepage": "https://github.com/juhanakristian/tailwind-gradient-mask-image#readme",
   "devDependencies": {
-    "tailwindcss": "^1.9.6"
-  }
+    "ava": "^4.3.0",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "yarn@3.2.1"
 }
